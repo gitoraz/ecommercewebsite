@@ -1,3 +1,4 @@
+/*Creating footer, adding list of items*/
 footer {
     position:relative;
     width: 100%;
@@ -47,4 +48,48 @@ footer {
 
 .footer_link:hover {
     color: #fff;
+}
+
+/*Updating the footer, added the terms, privacy, socials, credits*/
+.footer_title, .info_footer{
+    color:rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.info_email{
+    color:rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+}
+
+.footer_title{
+    margin-top: 40px;
+    color: #fff;
+}
+
+.footer_social_container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_link {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social_link:nth-child(1){
+    margin-left: 0;
+}
+
+.footer_credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.75);
 }
